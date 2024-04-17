@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>吳凌銳的個人履歷網頁</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .container img {
+            width: 200px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .container p {
+            width: calc(100% - 240px);
+            color: #666;
+            line-height: 1.6;
+            margin-left: 20px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+
+        .flex-item {
+            width: 30%;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .flex-item p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .image-container img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .bottom-section {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .bottom-section p {
+            color: #666;
+        }
+
+        .bottom-section a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .bottom-section a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>吳凌銳的個人履歷網頁</h1>
+
+    <div class="container">
+        <img src="img\02_size.jpg" alt="Profile Picture">
+        <p>
+            我叫吳凌銳，來自澳門，目前在中原大學就讀資訊管理學系。<br>
+            興趣就是周末去牌店玩卡牌遊戲，目前最喜歡的遊戲是遊戲王跟WS。<br>
+            平日把課業處理完後會看一下動畫，最喜歡的動畫是賽馬娘 road to the top。<br>
+            偶爾會去解一些cisco 的網路題目，也會在空閒的時間中，用chatgpt來幫忙自己去寫一些生活上會用的小程式。
+        </p>
+    </div>
+
+    <div class="flex-container">
+
+        <div class="flex-item">
+            <p>
+                這是我上一年在空閒時候中寫出來的一個幫助自己不會有選擇困難的小程式，只要在txt檔中輸入牌組名稱，之後就會隨機抽出。
+            </p>
+            <img src="img\ramDeck.png">
+        </div>
+
+        <div class="flex-item">
+            <div class="image-container">
+                <p>
+                    這個是我在中學時學的cisco 軟體，這是用來模擬如何架設VPN。
+                </p>
+                <img src="img/ospf.png">
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <p>
+                未來的期望就是可以早日畢業，也能在中原裡完成CCNA證照跟掌握程式開發。
+                希望更能夠完成我心中的程式,那就是一個網路爬蟲用於幫我方便找資料。<br>
+                <br>
+                出社會後的規劃有考慮去再進修一個資訊安全的課程，也有考慮留在台灣累積一下工作經驗。
+                不過還是會優先考慮回到澳門工作。<br>
+                <br>
+                大一的時候，有修一門嵌入式系統實驗，也會考慮投身到電子產品的程式部門中，單純是因為小時候我也有一個賽車夢。
+                <br>
+            </p>
+        </div>
+    </div>
+
+    <div class="bottom-section">
+        <p>
+            個人聯絡e-mail: <a href="mailto:ngsteven00130@gmail.com">點一下可以聯絡我~</a>
+        </p>
+    </div>
+</body>
+</html>
